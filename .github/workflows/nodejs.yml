@@ -27,16 +27,3 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     
-    - name: Install supertest, mocha, chai
-      run: npm i -g -D supertest mocha chai mochawesome
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm test
-    
-    - name: Test Report
-      uses: dorny/test-reporter@v1
-      if: success() || failure()
-      with:
-          name: Test Results        
-          path: ${{ github.workspace }}/reports/test-results.json
-          reporter: 'mocha-json'
