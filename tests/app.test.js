@@ -1,10 +1,11 @@
-// app.test.js
+const app = require('./index'); // Імпортуємо index.js
 
-const app = require('../');
-
-describe('App', () => {
-  it('should return "Hello, world!"', () => {
-    const result = app();
-    expect(result).toBe('Hello, world!');
+describe('Server', () => {
+  it('should have the necessary methods', () => {
+    // Перевіряємо, що app має необхідні методи
+    expect(app).toHaveProperty('get');
+    expect(app).toHaveProperty('post');
+    expect(app).toHaveProperty('patch');
+    // Додайте інші методи, які має ваш сервер, якщо потрібно
   });
 });
