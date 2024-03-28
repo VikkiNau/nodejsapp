@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "run test"
+    "test": "run test",
+    "run": echo "Tests to be added"
   },
   "keywords": [],
   "author": "",
