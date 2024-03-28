@@ -1,6 +1,6 @@
 // app.test.js
 
-const app = require('./app');
+const app = require('../');
 
 describe('App', () => {
   it('should return "Hello, world!"', () => {
