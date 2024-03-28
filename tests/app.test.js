@@ -1,4 +1,4 @@
-const app = require('./index'); // Імпортуємо index.js
+const app = require('../index'); // Імпортуємо index.js
 
 describe('Server', () => {
   it('should have the necessary methods', () => {
