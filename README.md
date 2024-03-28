@@ -1,1 +1,1 @@
-[![Node.js CI](https://github.com/VikkiNau/nodejsapp/actions/workflows/nodejs.yml/badge.svg?branch=main&event=push)](https://github.com/VikkiNau/nodejsapp/actions/workflows/nodejs.yml)
+[![Node.js CI](https://github.com/VikkiNau/nodejsapp/actions/workflows/nodejs.yml/badge.svg)](https://github.com/VikkiNau/nodejsapp/actions/workflows/nodejs.yml)
